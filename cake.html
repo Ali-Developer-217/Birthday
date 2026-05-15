@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Delicious Cake - Mahnoor</title>
+    <link rel="stylesheet" href="cake-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="instruction">Click the Knife to Cut the Cake! 🔪</h1>
+        
+        <div class="cake-area">
+            <!-- The Knife -->
+            <div id="knife" class="knife">🔪</div>
+
+            <!-- The Cake -->
+            <div class="cake" id="cake">
+                <div class="plate"></div>
+                <div class="layer layer-bottom"></div>
+                <div class="layer layer-middle"></div>
+                <div class="layer layer-top">
+                    <div class="icing">Mahnoor</div>
+                </div>
+                <!-- Strawberries on top -->
+                <div class="strawberry strawberry-1">🍓</div>
+                <div class="strawberry strawberry-2">🍓</div>
+                <div class="strawberry strawberry-3">🍓</div>
+                <div class="strawberry strawberry-4">🍓</div>
+                
+                <!-- Cake Slice (Invisible until cut) -->
+                <div id="slice" class="cake-slice hidden"></div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="nextBtn" class="btn hidden">See the Surprise! ✨</button>
+        </div>
+    </div>
+
+    <script src="cake-script.js"></script>
+</body>
+</html>
